@@ -6,8 +6,8 @@ import {
   incrementByAmount,
   incrementAsync,
   selectCount,
-} from './counterSlice';
-import styles from './Counter.module.css';
+} from './userSlice';
+import styles from './User.css';
 
 export function Counter() {
   const count = useSelector(selectCount);
